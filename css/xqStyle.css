@@ -1,0 +1,35 @@
+/*************************************************项目详情***************************************************/	
+/*xmxx*/
+.xmxx{width:100%;min-height:400px;float:left;position:relative;}	
+	.xmxx p{width:100px;min-height:45px;line-height:45px;text-align:right;float:left;}
+	.xmxx span{line-height:25px;float:left;margin:10px 0 0 0px;}	
+	
+	.xmxx h4{width:100%;height:30px;line-height:30px;float:left;margin-top:10px;font-size:18px;text-indent:15px;background:url(../images/m0453_dian.jpg) no-repeat center left;}
+	.xmxx em{display:block;float:left;font-size:16px;margin-left:15px;margin-top:10px;color:#666;}
+	.xmxx ul{width:100%;float:left;}
+		.xmxx li{width:50%;height:45px;line-height:45px;float:left;border-bottom:1px dashed #e0e0e0;}
+	.xmxx .rzqy{width:100%;float:left;position:relative;padding:0 0 40px 0;}
+		.xmxx .rzqy span{width:1050px;line-height:25px;float:left;margin:10px 0 0 0px;}
+		.xmxx .rzqy ul{width:1100px;float:left;padding-top:8px;}
+			.xmxx .rzqy_ul{height:180px;overflow:hidden;}
+			.xmxx .rzqy li{width:33.333333%;height:30px;float:left;line-height:30px;overflow:hidden;border:none;}
+	.xmxx_gengduo{width:100%;float:left;margin:0px 0 50px 0;}
+		.xmxx .xmxx_gengduo_txt{width:1175px;float:left;line-height:40px;margin:20px 0 0 25px;}
+
+/*kongtiao*/
+.kongtiao{width:100%;float:left;min-height:300px;margin-bottom:50px;margin-top:20px;}
+	.kongtiao_img{width:585px;height:325px;float:left;margin:2.5px;border:5px solid #e7e7e7;}
+			.kongtiao_img img{width:100%;height:100%;}
+		.kongtiao_txt{width:570px;min-height:80px;float:left;margin:2.5px 2.5px 2.5px 20px;}
+		
+/*pmt*/
+.pmt{width:100%;float:left;margin-top:20px;margin-bottom:50px;}
+	.pmt_top{width:585px;margin:0 auto;}
+	.pmt_img{width:585px;min-height:325px;float:left;margin:2.5px;border:5px solid #e7e7e7;}
+		.pmt_img img{width:100%;height:100%;}
+
+
+
+/*ckgd*/
+.ckgd{width:128px;height:28px;line-height:28px;float:left;text-align:center;background:#4a7fe9;color:#fff;border:1px solid #4a7fe9;position:absolute;bottom:0px;left:50%;margin:0 0 0 -64px;cursor:pointer;}
+.ckgd:hover{background:#2866c2;border:1px solid #2866c2;}

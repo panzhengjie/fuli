@@ -1,0 +1,72 @@
+/*************************************************租赁***************************************************/
+
+/*zlxq*/
+.zlxq_bj{width:100%;height:100%;position:relative;top:0;left:0;background:rgba(0,0,0,0.6);}
+	.zlxq{width:600px;height:400px;position:relative;top:100px;left:50%;margin-left:-300px;}
+		.zlxq h3{width:100%;height:35px;line-height:35px;float:left;text-align:center;font-size:26px;color:#fff;}
+		.zlxq b{display:block;width:100%;height:25px;line-height:25px;float:left;text-align:center;font-size:14px;color:#fff;}
+		.zlxq_top{width:100%;float:left;}	
+		.zlxq_con_login{width:415px;margin:0 auto;}
+			.zlxq_con_login input{width:270px;height:40px;line-height:40px;float:left;padding-left:10px;font-size:18px;border:none;}
+			.zlxq_con_login textarea{width:270px;height:80px;line-height:25px;float:left;padding:10px;font-size:18px;border:none;resize:none;overflow:hidden;}	
+			.zlxq_name{width:100%;height:40px;float:left;margin:20px 0 0 0;background:#fff;}
+				.zlxq_name span{display:inline-block;width:115px;height:38px;line-height:38px;float:left;text-align:center;color:#000;font-size:18px;margin:1px 0 0 0;border-right:1px solid #eee;}
+			.zlxq_tel{width:100%;height:40px;float:left;margin:10px 0 0 0;background:#fff;}
+				.zlxq_tel span{display:inline-block;width:115px;height:38px;line-height:38px;float:left;text-align:center;color:#000;font-size:18px;margin:1px 0 0 0;border-right:1px solid #eee;}
+			.zlxq_txt{width:100%;height:100px;float:left;margin:10px 0 0 0;background:#fff;}
+				.zlxq_txt span{display:inline-block;width:115px;height:98px;line-height:38px;float:left;text-align:center;color:#000;font-size:18px;margin:1px 0 0 0;border-right:1px solid #eee;}
+				::-webkit-input-placeholder {font-size:12px;line-height:20px;}
+				::-moz-placeholder {font-size:12px;line-height:20px;} /* firefox 19+ */
+				:-ms-input-placeholder {font-size:12px;line-height:20px;} /* ie */
+				:-moz-placeholder {font-size:12px;line-height:20px;}
+				.zlxq_txt .placeholder{font-size:12px;line-height:20px;}
+			.zlxq_con_login button{width:146px;height:40px;line-height:40px;font-size:22px;color:#fff;border:none;position:absolute;left:50%;bottom:50px;margin:0 0 0 -73px;background:#bc0001;cursor:pointer;}
+			.zlxq_con_login button:hover{background:#aa0506;}
+				.tishi{width:120px;height:25px;line-height:25px;text-align:center;color:#fff;position:absolute;left:50%;top:50%;margin:-12.5px 0 0 -60px;z-index:999;background:#000;opacity:0.9;display:none;
+							-webkit-border-radius:10px;
+							-moz-border-radius:10px;
+							border-radius:10px;}
+
+
+.main_top{width:100%;float:left;background:#fff;}
+.main_bot{width:100%;float:left;padding-top:20px;background:#fbfbfb;}
+.main em{display:block;float:right;font-size:14px;color:#666;}
+.main h4{width:100%;height:60px;line-height:60px;float:left;border-bottom:1px solid #d7d7d7;font-size:24px;color:#333;}
+
+/*kzmj*/
+.kzmj{width:100%;min-height:430px;float:left;position:relative;}
+	.kzmj ul{width:100%;float:left;margin:0px 0 90px 0;}
+	.kzmj .kzmj_ul{height:290px;overflow:hidden;}
+		.kzmj li{width:33.333%;float:left;margin:0 0 20px 0;}
+			.kzmj dl{width:380px;height:280px;margin:0 auto;border:1px solid #d8d8d8;}
+				.kzmj dt{width:380px;height:220px;float:left;overflow:hidden;}
+					.kzmj dt img{width:100%;height:100%;transition:.2s ease-in 0s;}
+				.kzmj dt:hover img{transition:.2s ease-in 0s;transform:scale(1.1,1.1);}
+				.kzmj dd{width:380px;float:left;font-size:16px;background:#f6f6f6;}
+					.kzmj dd b{display:inline-block;width:48%;float:left;line-height:30px;color:#3b3b3b;text-align:left;margin:0 0 0 2%;}
+					.kzmj dd span{display:inline-block;width:48%;float:right;line-height:30px;color:#bc0001;text-align:right;margin-right:2%;}
+					.kzmj dd p{display:inline-block;width:48%;float:left;line-height:30px;color:#999;text-align:left;margin-left:2%;}
+					.kzmj dd em{display:inline-block;width:48%;float:right;line-height:30px;color:#999;text-align:right;margin-right:2%;}
+
+/*zxzx*/
+.zxzx{width:100%;min-height:500px;float:left;margin-bottom:50px;}
+	.zxzx_left{width:540px;float:left;padding-right:40px;border-right:1px solid #eaeaea;}
+	.zxzx_right{width:540px;float:left;margin-left:40px;}
+		.zxzx dl{width:540px;float:left;margin-top:25px;}
+			.zxzx dt{width:100%;height:215px;float:left;overflow:hidden;}
+				.zxzx dt img{width:100%;height:100%;transition:.2s ease-in 0s;}
+			.zxzx dt:hover img{transition:.2s ease-in 0s;transform:scale(1.1,1.1);}				
+			.zxzx dd{width:100%;height:260px;float:left;}
+				.zxzx ul{width:100%;float:left;margin-top:15px;list-style:outside;}
+					.zxzx li{width:520px;height:40px;float:left;color:#4683de;margin-left:20px;position:relative;}
+						.zxzx p{display:inline-block;width:420px;height:40px;line-height:40px;vertical-align:middle;color:#101010;white-space:nowrap;overflow:hidden;
+							-o-text-overflow:ellipsis;
+							text-overflow:ellipsis;
+							-moz-binding:url('ellipsis.xml#ellipsis');}
+						.zxzx p:hover{color:#4683de;}
+						.zxzx i{display:block;height:40px;line-height:40px;font-size:14px;color:#999;position:absolute;right:0;top:0;}
+
+/*ckgd*/
+.ckgd{width:128px;height:28px;line-height:28px;float:left;text-align:center;background:#4a7fe9;color:#fff;border:1px solid #4a7fe9;position:absolute;bottom:30px;left:50%;margin:0 0 0 -64px;cursor:pointer;}
+.ckgd:hover{background:#2866c2;border:1px solid #2866c2;}
+

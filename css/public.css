@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************公共样式***************************************************/
+*:focus{outline:none;}
+*{margin:0;padding:0;}
+html{font-family:"微软雅黑";font-size:15px;background:#f8f8f8;}
+img{border:none;}
+a{text-decoration:none;}
+ul{list-style:none;}
+em{font-style:normal;}
+input{vertical-align:middle;}
+table{border-collapse:collapse;}
+h1,h2,h3,h4,h5,h6{font-size:15px;font-weight:400;}
+b{font-weight:normal;}
+i{font-style:normal;}
+
+
+
+/*banner*/
+.banner{width:100%;min-width:1320px;height:600px;float:left;overflow:hidden;text-align:center;position:relative;}
+	.banner_img{min-width:1320px;width:1920px;height:600px;position:absolute;top:20%;left:50%;margin:-300px 0 0 -960px;}
+		.banner_img img{vertical-align:middle;}
+
+.main{width:100%;min-width:1320px;float:left;}
+.main h3{width:100%;height:35px;line-height:35px;float:left;text-align:center;font-size:26px;color:#333;}
+.main b{display:block;width:100%;height:25px;line-height:25px;float:left;margin-bottom:20px;text-align:center;font-size:14px;color:#9d9d9d;}
+	.main_con{width:1200px;margin:0 auto;}
+	
+/*crumbs*/
+.crumbs{width:100%;height:45px;float:left;margin-top:10px;}
+	.crumbs_con{width:1180px;height:45px;line-height:45px;margin:0 auto;color:#999;padding-left:20px;font-size:15px;background:url(../images/m0453_crumbs.png) no-repeat center left;}
+		.crumbs_con a{font-size:15px;color:#999;}
+		.crumbs_con a:hover{color:#086ace;}
+
+
+
+
+
+
